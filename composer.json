@@ -1,0 +1,22 @@
+{
+    "name": "phillipe-ciranda-alpaclass/chz-php",
+    "description": "Chartisan's PHP backend",
+    "version": "1.2.1",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Phillipe Ciranda",
+            "email": "phillipe.ciranda@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chartisan\\PHP\\": "src/"
+        }
+    }
+}
